@@ -70,3 +70,4 @@ echo "Your device will shutting down in 4 seconds..."
 echo "0" > /sys/class/gpio/gpio$BUTTON/value
 
 ' > /usr/local/bin/xsoftsd.sh
+sudo chmod +x /usr/local/bin/xsoftsd.sh
