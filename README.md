@@ -1,1 +1,4 @@
-# X885 power mangement & safe shutdown & pwm fan script
+# X885 installation script
+1. Power management
+2. Safe shutdown
+3. Pwm fan control
