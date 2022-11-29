@@ -42,6 +42,7 @@ while [ 1 ]; do
   fi
 done' > /etc/xpwr.sh
 sudo chmod +x /etc/xpwr.sh
+sudo sed -i '$ i /etc/xpwr.sh &' /etc/rc.local
 
 #x885 full shutdown through Software
 #!/bin/bash
